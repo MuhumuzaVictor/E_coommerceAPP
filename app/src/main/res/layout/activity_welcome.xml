@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+    <Button
+        android:id="@+id/welcome_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/white"
+        android:padding="10dp"
+        android:text="Log in"
+        android:textColor="#007bff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:cornerRadius="20px"/>
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="10pt"
+        android:textColor="#007bff"
+        android:text="Or"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+
+        />
+    <Button
+        android:id="@+id/welcome_signup_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/white"
+        android:padding="10dp"
+        android:text="Sign up"
+        android:textColor="#007bff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:cornerRadius="20px"
+        />
+
+
+</LinearLayout>
